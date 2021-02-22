@@ -2,8 +2,8 @@
 Short 1-2 sentence summary
 
 ## Name(s) of individual or team members
-Eric Gagliano
-Seth Vanderwilt
+- Eric Gagliano
+- Seth Vanderwilt
 
 ## Some introductory background information
 - We want to see what information about snow depth, coverage, and other properties we can extract from SAR data.
@@ -16,6 +16,7 @@ Seth Vanderwilt
 
 ## Datasets you will use (with links, if available)
 - [Sentinel-1 SAR on AWS](https://sentinel-s1-rtc-indigo-docs.s3-us-west-2.amazonaws.com/index.html)
+- could use ASF (Eric has done 
 
 ## Tools/packages you’ll use (with links)
 - Scott Henderson visualization tool to start https://github.com/scottyhq/sentinel1-rtc
@@ -38,3 +39,4 @@ Seth Vanderwilt
 - Lievens, H., Demuzere, M., Marshall, HP. et al. Snow depth variability in the Northern Hemisphere mountains observed from space. Nat Commun 10, 4629 (2019). https://doi-org.offcampus.lib.washington.edu/10.1038/s41467-019-12566-y
 - Marin, C., Bertoldi, G., Premier, V., Callegari, M., Brida, C., Hürkamp, K., Tschiersch, J., Zebisch, M., and Notarnicola, C.: Use of Sentinel-1 radar observations to evaluate snowmelt dynamics in alpine regions, The Cryosphere, 14, 935–956, https://doi.org/10.5194/tc-14-935-2020, 2020.
   - https://sentinel.esa.int/web/sentinel/missions/sentinel-5/news/-/article/sentinel-1-satellites-observe-snow-melting-processes page broken right now
+- https://github.com/isce-framework/isce2-docs/blob/master/Notebooks/UNAVCO_2020/SAR%20Processing/SAR_Processor.ipynb great SAR notebook according to David
