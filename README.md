@@ -28,7 +28,7 @@ Short 1-2 sentence summary
 
 ## Planned methodology/approach
 - start by loading the data & carefully visualizing
-- ...
+- see if we can reproduce some interferograms like [these previews](https://search.asf.alaska.edu/#/?dataset=SENTINEL-1%20INTERFEROGRAM%20(BETA)&zoom=6.204696235854211&center=-143.185674,68.040874&polygon=POLYGON((-148.7149%2069.5738,-143.0713%2069.5738,-143.0713%2070.4726,-148.7149%2070.4726,-148.7149%2069.5738))&resultsLoaded=true&granule=S1-GUNW-D-R-131-tops-20200924_20200831-162716-71174N_69108N-PP-2abd-v2_0_3-amplitude&view=equitorial)
 
 ## Expected outcomes
 - we will have built some reusable tools for SAR processing & visualization that we can keep using in our research group
