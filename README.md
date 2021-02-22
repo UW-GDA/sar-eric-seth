@@ -1,19 +1,40 @@
 # sar-eric-seth
-
-Prepare your README
-The README.md file in your new repo will serve as the landing page for your project. You can continue to update as your project evolves, but for now, please prepare a basic project outline. I recommend that you review the markdown cheat sheet and use some basic headings, bulleted/numbered lists, and other formatting to organize your outline.
-
-Please include the following (can combine and reorganize as necessary):
-
-Project Title
-Name(s) of individual or team members
 Short 1-2 sentence summary
-Some introductory background information
-Problem statement, question(s) and/or objective(s)
-Datasets you will use (with links, if available)
-Tools/packages you’ll use (with links)
-Planned methodology/approach
-Expected outcomes
-Any other relevant information, images/tables, references, etc.
-References
-That may sound like a lot, but some of these items should only be 1-2 sentences, others can be short lists. Consider this the start of your final report.
+
+## Name(s) of individual or team members
+Eric Gagliano
+Seth Vanderwilt
+
+## Some introductory background information
+- We want to see what information about snow depth, coverage, and other properties we can extract from SAR data.
+- Advantages of SAR- we can see through clouds, which is great for Washington state/anywhere with stormy winters
+- High-resolution SAR imagery will be available soon (Capella Space, ICEYE, ...) and we want to take advantage of this daily/hourly flood of great data!
+
+## Problem statement, question(s) and/or objective(s)
+- can we track snow melt dynamics over a season, especially in WA when have rain-on-snow & other events?
+- does SAR/InSAR give us enough signal to estimate snow depth over time?
+
+## Datasets you will use (with links, if available)
+- [Sentinel-1 SAR on AWS](https://sentinel-s1-rtc-indigo-docs.s3-us-west-2.amazonaws.com/index.html)
+
+## Tools/packages you’ll use (with links)
+- Scott Henderson visualization tool to start https://github.com/scottyhq/sentinel1-rtc
+- geopandas
+- holoviz tools like HoloViews and Datashader
+- [rioxarray](https://github.com/corteva/rioxarray)
+- [dinosar](https://github.com/scottyhq/dinosar) (InSAR processing for given area of interest on AWS) if our InSAR analysis is too intensive/too much data to run locally
+
+## Planned methodology/approach
+- start by loading the data & carefully visualizing
+- ...
+
+## Expected outcomes
+- we will have built some reusable tools for SAR processing & visualization that we can keep using in our research group
+
+## Any other relevant information, images/tables, references, etc.
+
+## References
+[ ] - **find the link** (AGU 2020 Cryosphere session) Darychuk, S.E., et al. Snow Melt Dynamics from Satellite Observations in the Lajoie Basin, British Columbia
+- Lievens, H., Demuzere, M., Marshall, HP. et al. Snow depth variability in the Northern Hemisphere mountains observed from space. Nat Commun 10, 4629 (2019). https://doi-org.offcampus.lib.washington.edu/10.1038/s41467-019-12566-y
+- Marin, C., Bertoldi, G., Premier, V., Callegari, M., Brida, C., Hürkamp, K., Tschiersch, J., Zebisch, M., and Notarnicola, C.: Use of Sentinel-1 radar observations to evaluate snowmelt dynamics in alpine regions, The Cryosphere, 14, 935–956, https://doi.org/10.5194/tc-14-935-2020, 2020.
+  - https://sentinel.esa.int/web/sentinel/missions/sentinel-5/news/-/article/sentinel-1-satellites-observe-snow-melting-processes page broken right now
