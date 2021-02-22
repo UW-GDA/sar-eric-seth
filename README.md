@@ -16,7 +16,8 @@ Short 1-2 sentence summary
 
 ## Datasets you will use (with links, if available)
 - [Sentinel-1 SAR on AWS](https://sentinel-s1-rtc-indigo-docs.s3-us-west-2.amazonaws.com/index.html)
-- could use ASF (Eric has done 
+- could use ASF processing (Eric has done)
+- UAVSAR???
 
 ## Tools/packages you’ll use (with links)
 - Scott Henderson visualization tool to start https://github.com/scottyhq/sentinel1-rtc
@@ -34,9 +35,20 @@ Short 1-2 sentence summary
 
 ## Any other relevant information, images/tables, references, etc.
 
+### Notes from our lab SAR meetings
+Backscatter vs interferograms for our tasks - which are more infomrative
+Can use phase differences to get at SWE! 
+Snow is challenging - material properties (water content) affect returns; but possible to extract information with some simple assumptions
+Promising research avenues
+- Snow melt - easy to identify using backscatter imagery
+- SWE possible to extract from phase change
+Snow depth
+- C-Snow?
+
 ## References
 [ ] - **find the link** (AGU 2020 Cryosphere session) Darychuk, S.E., et al. Snow Melt Dynamics from Satellite Observations in the Lajoie Basin, British Columbia
 - Lievens, H., Demuzere, M., Marshall, HP. et al. Snow depth variability in the Northern Hemisphere mountains observed from space. Nat Commun 10, 4629 (2019). https://doi-org.offcampus.lib.washington.edu/10.1038/s41467-019-12566-y
 - Marin, C., Bertoldi, G., Premier, V., Callegari, M., Brida, C., Hürkamp, K., Tschiersch, J., Zebisch, M., and Notarnicola, C.: Use of Sentinel-1 radar observations to evaluate snowmelt dynamics in alpine regions, The Cryosphere, 14, 935–956, https://doi.org/10.5194/tc-14-935-2020, 2020.
   - https://sentinel.esa.int/web/sentinel/missions/sentinel-5/news/-/article/sentinel-1-satellites-observe-snow-melting-processes page broken right now
 - https://github.com/isce-framework/isce2-docs/blob/master/Notebooks/UNAVCO_2020/SAR%20Processing/SAR_Processor.ipynb great SAR notebook according to David
+- [NISAR science handbook](https://nisar.jpl.nasa.gov/files/nisar/NISAR_Science_Users_Handbook.pdf)
