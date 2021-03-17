@@ -1,5 +1,6 @@
 # sar-eric-seth
 Using synthetic aperture radar (SAR) to study our snowy mountains!
+Presentation: https://docs.google.com/presentation/d/1DUppjKOwNZNKDlO4dlhpo6nDn-u-VNyIH8W_XW7pXp8/edit#slide=id.p
 
 ## Name(s) of individual or team members
 - Eric Gagliano
